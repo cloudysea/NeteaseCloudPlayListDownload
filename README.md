@@ -1,5 +1,5 @@
 <center >
-<font size="5">【自制脚本】python+IDM批量下载网易云音乐歌单歌曲
+<font size="5">【python使用IDM或普通方式批量下载网易云音乐歌单歌曲】
 </font>
 </center>
 
@@ -11,17 +11,22 @@
 
 # 声明
 
-> 此脚本仅用作学习交流之用，禁止任何个人及团体利用此脚本进行其他用途。
+> 1. 此脚本仅用作学习交流之用，禁止任何个人及团体利用此脚本进行其他用途。
+> 2. 脚本Fork自 https://github.com/crayonxin2000/NeteaseCloudPlayListDownload 并做修改，非原创
 
 # 前言
-网易云平台的音乐的歌曲需要会员才能下载，而且使用其他工具下载此平台上的音乐大多只能一首一首下载。而我想要的是批量下载整个歌单的音乐。
-所以我只做了这个脚本。很便利的下载网某云歌曲。
-我已经将脚本文件上传到github仓库中，欢迎交流学习
-[python+IDM批量下载网易云音乐歌单歌曲](https://github.com/crayonxin2000/NeteaseCloudPlayListDownload)，这个脚本的详细介绍也可以去仓库里看。
 
+1. Fork自[原始仓库](https://github.com/crayonxin2000/NeteaseCloudPlayListDownload)并做修改
+2. 增加直接下载功能
+3. 增加运行在Windows/Linux的判断
+4. Windows下运行默认使用IDM下载，无IDM则直接下载
+5. Linux下是直接下载
 
 >非常感谢github上的开源api提供的支持，web请求使用的是此api
 > [网易云 NodeJS 版 API](https://github.com/Binaryify/NeteaseCloudMusicApi)
+
+---
+# **以下部分为原README内容**
 
 # 预览
 使用的python工具，运行  `python musics.py`,然后一步步按提示做就可以了

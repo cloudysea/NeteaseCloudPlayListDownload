@@ -224,7 +224,7 @@ def wb_download(down_url, output_filename, down_path):  # 普通下载
 
 def start_download(down_path):  # 下载
     xz = input("是否下载歌曲?(y/n):")
-    if xz == 'y' or or xz == 'Y' or xz == '':
+    if xz == 'y' or xz == 'Y' or xz == '':
         print("默认保存路径为%s" % down_path)
         IDMdownload(download, down_path)
     elif xz == "n" or xz == "N":

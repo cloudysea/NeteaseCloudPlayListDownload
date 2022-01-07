@@ -16,7 +16,7 @@
 
 # 前言
 
-1. Fork自[原始仓库](https://github.com/crayonxin2000/NeteaseCloudPlayListDownload)并做修改
+1. Fork自源仓库 [crayonxin2000/NeteaseCloudPlayListDownload](https://github.com/crayonxin2000/NeteaseCloudPlayListDownload) 并做修改
 2. 增加直接下载功能
 3. 增加运行在Windows/Linux的判断
 4. Windows下运行默认使用IDM下载，无IDM则直接下载
